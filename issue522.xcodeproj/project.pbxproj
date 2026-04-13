@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		64B9E0C92F8B793E001B2653 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 64B9E0C82F8B793E001B2653 /* Mixpanel */; };
+		64B9E0CC2F8B7DFA001B2653 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 64B9E0CB2F8B7DFA001B2653 /* Mixpanel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		64B9E0B32F8B693A001B2653 /* issue522.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = issue522.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B9E0CC2F8B7DFA001B2653 /* Mixpanel in Frameworks */,
+				64B9E0C92F8B793E001B2653 /* Mixpanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = issue522;
 			packageProductDependencies = (
+				64B9E0C82F8B793E001B2653 /* Mixpanel */,
+				64B9E0CB2F8B7DFA001B2653 /* Mixpanel */,
 			);
 			productName = issue522;
 			productReference = 64B9E0B32F8B693A001B2653 /* issue522.app */;
@@ -94,6 +103,9 @@
 			);
 			mainGroup = 64B9E0AA2F8B693A001B2653;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				64B9E0CA2F8B7DFA001B2653 /* XCLocalSwiftPackageReference "../../mixpanel-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64B9E0B42F8B693A001B2653 /* Products */;
 			projectDirPath = "";
@@ -332,6 +344,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		64B9E0CA2F8B7DFA001B2653 /* XCLocalSwiftPackageReference "../../mixpanel-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../mixpanel-swift";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64B9E0C82F8B793E001B2653 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Mixpanel;
+		};
+		64B9E0CB2F8B7DFA001B2653 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Mixpanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 64B9E0AB2F8B693A001B2653 /* Project object */;
 }
